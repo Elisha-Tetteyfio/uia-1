@@ -1,11 +1,31 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  username: MyString
+  name: MyString
   email: MyString
+  password: MyString
   password_digest: MyString
+  pregnancies: 1
+  glucose: 1
+  blood_pressure: 1
+  skin_thickness: 1
+  insulin: 1
+  bmi: 9.99
+  dpf: 1
+  age: 1
+  outcome: false
 
 two:
-  username: MyString
+  name: MyString
   email: MyString
+  password: MyString
   password_digest: MyString
+  pregnancies: 1
+  glucose: 1
+  blood_pressure: 1
+  skin_thickness: 1
+  insulin: 1
+  bmi: 9.99
+  dpf: 1
+  age: 1
+  outcome: false
