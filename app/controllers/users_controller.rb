@@ -8,12 +8,6 @@ class UsersController < ApplicationController
     render json: @users
   end
 
-  def predictor
-    @users = User.all.where(outcome: nil)
-
-    render json: @users
-  end
-
   # GET /users/1
   def show
     render json: @user

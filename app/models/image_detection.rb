@@ -1,0 +1,2 @@
+class ImageDetection < ApplicationRecord
+end
